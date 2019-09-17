@@ -48,5 +48,6 @@ class TicTacToe
       "O"
     else
       "X"
+    end
   end
 end
