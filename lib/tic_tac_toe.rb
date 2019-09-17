@@ -60,7 +60,7 @@ class TicTacToe
       move(index, player)
       display_board
     else 
-      false
+      tru
     end
   end
 end
