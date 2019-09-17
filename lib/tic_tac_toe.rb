@@ -34,6 +34,7 @@ class TicTacToe
   
   def position_taken?(index)
     binding.pry
-    end
+   
+
   end
 end
