@@ -55,7 +55,6 @@ class TicTacToe
     puts "Please enter a move 1-9:"
     input = gets.chomp
     index =input_to_index(index)
-   
-    end
+  
   end
 end
