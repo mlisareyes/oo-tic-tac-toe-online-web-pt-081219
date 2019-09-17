@@ -44,5 +44,9 @@ class TicTacToe
   end
   
   def current_player
+    if @board.count("X") > @board.count("O")
+      "O"
+    else
+      "X"
   end
 end
