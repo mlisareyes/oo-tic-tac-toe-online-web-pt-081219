@@ -52,6 +52,7 @@ class TicTacToe
   end
   
   def turn
+    puts "Please enter a move 1-9:"
     input = gets.chomp
     
   end
