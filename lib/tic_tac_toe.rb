@@ -1,3 +1,4 @@
+require 'pry'
 class TicTacToe
   
   def initialize(board = nil)
@@ -32,10 +33,7 @@ class TicTacToe
   end
   
   def position_taken?(index)
-    if @board[index] = " " 
-      true
-    else
-      false
+    binding.pry
     end
   end
 end
