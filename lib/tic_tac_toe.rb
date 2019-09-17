@@ -35,7 +35,7 @@ class TicTacToe
     if @board[index] = " " 
       true
     else
-      true
+      false
     end
   end
 end
